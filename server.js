@@ -5,16 +5,19 @@ const cors = require('cors');
 
 const app = express();
 
-// Habilitar CORS
-app.use(cors());
+app.use(cors({
+  origin: "https://tu-usuario.github.io", // Cambia "tu-usuario" por tu nombre de usuario de GitHub
+  methods: ["GET", "POST"]
+}));
 
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "https://josejimenezeng.github.io/real-time-editor-client/", 
+    origin: "https://tu-usuario.github.io", // Cambia "tu-usuario" por tu nombre de usuario de GitHub
     methods: ["GET", "POST"]
   }
 });
+
 
 io.on('connection', (socket) => {
   console.log('New client connected');
