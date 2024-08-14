@@ -6,14 +6,14 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-  origin: "https://tu-usuario.github.io", // Cambia "tu-usuario" por tu nombre de usuario de GitHub
+  origin: "https://josejimenezeng.github.io/real-time-editor-client/", // Cambia "tu-usuario" por tu nombre de usuario de GitHub
   methods: ["GET", "POST"]
 }));
 
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "https://tu-usuario.github.io", // Cambia "tu-usuario" por tu nombre de usuario de GitHub
+    origin: "https://josejimenezeng.github.io/real-time-editor-client/", // Cambia "tu-usuario" por tu nombre de usuario de GitHub
     methods: ["GET", "POST"]
   }
 });
