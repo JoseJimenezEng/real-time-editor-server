@@ -6,14 +6,14 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-  origin: "http://localhost:5173/", // Cambia "tu-usuario" por tu nombre de usuario de GitHub
+  origin: "http://localhost:5173", // Cambia "tu-usuario" por tu nombre de usuario de GitHub
   methods: ["GET", "POST"]
 }));
 
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "http://localhost:5173/", // Cambia "tu-usuario" por tu nombre de usuario de GitHub
+    origin: "http://localhost:5173", // Cambia "tu-usuario" por tu nombre de usuario de GitHub
     methods: ["GET", "POST"]
   }
 });
