@@ -11,7 +11,7 @@ app.use(cors());
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "http://localhost:5173", // Dirección del frontend
+    origin: "https://josejimenezeng.github.io/real-time-editor-client/", 
     methods: ["GET", "POST"]
   }
 });
