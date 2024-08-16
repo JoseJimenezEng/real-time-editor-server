@@ -6,14 +6,14 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-  origin: "https://aesthetic-unicorn-279590.netlify.app", 
+  origin: "https://realtimeclient.netlify.app", 
   methods: ["GET", "POST"]
 }));
 
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "https://aesthetic-unicorn-279590.netlify.app", 
+    origin: "https://realtimeclient.netlify.app", 
     methods: ["GET", "POST"]
   }
 });
