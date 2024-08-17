@@ -38,6 +38,26 @@ io.on('connection', (socket) => {
     socket.to(room).emit('text update', text);
   });
 
+  socket.on('font size update', ({ fontSize, room }) => {
+    socket.to(room).emit('font size update', fontSize);
+  });
+
+  socket.on('font color update', ({ fontColor, room }) => {
+    socket.to(room).emit('font color update', fontColor);
+  });
+
+  socket.on('font family update', ({ fontFamily, room }) => {
+    socket.to(room).emit('font family update', fontFamily);
+  });
+
+  socket.on('italic update', ({ isItalic, room }) => {
+    socket.to(room).emit('italic update', isItalic);
+  });
+
+  socket.on('underline update', ({ isUnderlined, room }) => {
+    socket.to(room).emit('underline update', isUnderlined);
+  });
+
   socket.on('disconnect', () => {
     for (let room in rooms) {
       rooms[room] = rooms[room].filter(user => user.id !== socket.id);
