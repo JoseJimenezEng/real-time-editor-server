@@ -1,7 +1,8 @@
 # Real-Time Text Editor
 
 # DEMO
-https://realtimeclient.netlify.app/
+Abrir el siguiente enlace https://realtimeclient.netlify.app/ desde diferentes dispositivos entren al room y editen el texto.
+
 # Imagenes
 ## Inicio sesión Jose en Mi Room
 ![image](https://github.com/user-attachments/assets/c5dc718d-1585-4871-bb78-6054f2b876b6)
