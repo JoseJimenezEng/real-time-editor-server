@@ -1,5 +1,19 @@
 # Real-Time Text Editor
 
+# DEMO
+https://realtimeclient.netlify.app/
+# Imagenes
+## Inicio sesión Jose en Mi Room
+![image](https://github.com/user-attachments/assets/c5dc718d-1585-4871-bb78-6054f2b876b6)
+## Inicio sesión David en Mi Room
+![image](https://github.com/user-attachments/assets/19914c82-aad7-4ad3-8e99-b477f9b6ffde)
+## Sincronización después que Jose edita en su pantalla y se actualiza para ambos
+![image](https://github.com/user-attachments/assets/aa79123c-a3ec-4063-80aa-6102ef9a00ff)
+
+
+# Real-Time Text Editor
+
+## Descripción
 Este proyecto es una aplicación de edición de texto en tiempo real que permite a varios usuarios colaborar en un documento simultáneamente. Los usuarios pueden unirse a salas (rooms) con un nombre de usuario y un room,. Dentro de cada sala, todos ls participantes pueden ver las ediciones de texto en tiempo real. La aplicación permite a los usuarios personalizar el texto con diferentes tamaños, colores, fuentes, y aplicar estilos.
 
 ## Características
@@ -37,3 +51,5 @@ Ejecutar el servidor:
 ```
 npm start
 ```
+## Configurar el cliente
+Para configurar el cliente entra a: https://github.com/JoseJimenezEng/real-time-editor-client
