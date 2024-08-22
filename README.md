@@ -31,26 +31,3 @@ Opciones para cambiar el tamaño de la fuente, color, fuente,, y cursiva y subra
 ### Visualización de usuarios activos: 
 Muestra los usuarios conectados en la misma sala.
 
-### Diseño responsivo: 
-Interfaz de usuario construida con Bootstrap para una experiencia fluida para cualquiera.
-
-## Instalación y Configuración
-Requisitos: Node.js, npm o yarn, React (yo lo realicé con Vite, pero no debería haber problema con CREATE REACT APP), Bootstrap.
-
-Clonar el repositorio
-```
-git clone https://github.com/JoseJimenezEng/real-time-editor-server.git
-
-cd real-time-editor-server
-```
-## Configurar variables de entorno:
-Crea un archivo .env en la raíz del directorio server y define la siguiente variable:
-```
-SERVER_RTEDIT_PORT=4000
-```
-Ejecutar el servidor:
-```
-npm start
-```
-## Configurar el cliente
-Para configurar el cliente entra a: https://github.com/JoseJimenezEng/real-time-editor-client
