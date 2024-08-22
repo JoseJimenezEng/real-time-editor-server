@@ -31,3 +31,5 @@ Opciones para cambiar el tamaño de la fuente, color, fuente,, y cursiva y subra
 ### Visualización de usuarios activos: 
 Muestra los usuarios conectados en la misma sala.
 
+## Uso
+Escoge un nombre y un room al cual entrar y si tu equipo entra al mismo room, podrán colaborar en tiempo real
